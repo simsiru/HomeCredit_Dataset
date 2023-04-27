@@ -7,5 +7,8 @@ Final models are then deployed to Google Cloud Platform as APIs. API functionali
 
 ### Technologies
 
-Typical data science tools were used like `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, but also `duckdb` for querying large pandas dataframes in memory. 
-Also gradient boosting frameworks were used like `XGBoost` and `LightGBM`. For API creation and deployment `Flask`, `Streamlit` and `Google Cloud Platform` were used.
+- Typical data science tools - `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, but also `duckdb` for querying large pandas dataframes in memory.
+- Gradient boosting frameworks - `XGBoost` and `LightGBM`.
+- Clustering and dimensionality reduction - `hdbscan` and `umap`.
+- For feature engineering and selection - `Featuretools`, `shap` and `Probatus`.
+- For API creation and deployment - `Flask`, `Streamlit` and `Google Cloud Platform`.

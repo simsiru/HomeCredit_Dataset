@@ -10,5 +10,6 @@ Final models are then deployed to Google Cloud Platform as APIs. API functionali
 - Typical data science tools - `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, but also `duckdb` for querying large pandas dataframes in memory.
 - Gradient boosting frameworks - `XGBoost` and `LightGBM`.
 - Clustering and dimensionality reduction - `hdbscan` and `umap`.
-- For feature engineering and selection - `Featuretools`, `shap` and `Probatus`.
-- For API creation and deployment - `Flask`, `Streamlit` and `Google Cloud Platform`.
+- Feature engineering and selection - `Featuretools`, `shap` and `Probatus`.
+- Hyperparameter tuning - `scikit-optimize`.
+- API creation and deployment - `Flask`, `Streamlit`, `Docker` and `Google Cloud Platform`.
